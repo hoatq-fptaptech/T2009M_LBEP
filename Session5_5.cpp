@@ -3,12 +3,15 @@ int main(){
 	int n;
 	printf("Nhap n=");
 	scanf("%d",&n);
-	for(int i=0;i<=n;i++){
-		int gt=1;
-		// tinh i!;
-		for(int j=1;j<=i;j++){
-			gt*=j;
+	
+	for(int i=1;i<=n;i++){
+		// tinh nghich dao cho i
+		int x = i;
+		int S=0;
+		while(x!=0){
+			S = S*10+x%10;
+			x/=10;
 		}
-		printf("%d! = %d\n",i,gt);
+		printf("Nghich dao cua %d la %d\n",i,S);
 	}
 }
