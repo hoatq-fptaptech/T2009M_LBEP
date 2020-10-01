@@ -27,7 +27,7 @@ int main(){
 	
 	int vitri = strchr(s2,'m') - s2;// cong thuc tim vi tri cua ky tu trong chuoi
 	printf("\nvi tri cua 'm' trong s2: %d\n",vitri);
-	
+	 
 	strcpy(s1,s2);//=> s1= s2;
 	printf("S1= %s\n",s1);//t2009mxinchaot2009m
 	printf("S2= %s\n",s2);// t2009mxinchaot2009m
