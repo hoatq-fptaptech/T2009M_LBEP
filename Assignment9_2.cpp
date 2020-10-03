@@ -9,7 +9,7 @@ int main(){
 	if(strlen(s1) < strlen(s2)){
 		printf("%s khong chua %s",s1,s2);
 	}else{
-		for(int i=0;i<strlen(s1);i++){
+		for(int i=0;i<=strlen(s1)-strlen(s2);i++){
 			if(s1[i]== s2[0]){
 				int n = strlen(s2);
 				int count = 0;// dem so luong ky tu giong nhau lien tiep
